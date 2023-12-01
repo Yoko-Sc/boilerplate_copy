@@ -228,7 +228,25 @@ aside {
 /* ------------------------------------------------------------------
       FAQ page
       ------------------------------------------------------------------ */
-.faq 
+.faq {
+  display: flex;
+    justify-content: center; 
+}
+.faq .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 50px 0 0 0;
+}
+.faq h2 {
+  margin-bottom: 40px;
+}
+.faq-content {
+  margin-bottom: 50px;
+
+}
+
 
 /* ==========================================================================
    Helper classes
