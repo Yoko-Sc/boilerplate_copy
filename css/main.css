@@ -142,6 +142,17 @@ address {
   margin: 50px 0;
 }
 
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
+
+
+
 /* Base Header - Footer Styles */
 header {
   display: flex;
@@ -157,6 +168,10 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
+}
+
+header figure {
+  width: 60%;
 }
 
 .header-divider {
@@ -205,7 +220,7 @@ footer .content-wrapper {
   width: 55%;
 }
 
-.footer-content {
+.footer .contact {
   margin-bottom: 50px;
 }
 
@@ -221,19 +236,23 @@ footer .social-icons p {
   align-items: center;
 }
 
-.copyright {
-  padding: 20px 0;
+footer .copyright {
+  margin: 20px 0;
 }
 
 /********* Mobil ***************/
 
 /* hero-area */
 .hero-area {
+  background: url(/Users/ys/Desktop/skillcrush/coding-responsive-websites/my-class-project/unplugged-design-docs/unplugged-retreat.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
   display: flex;
   justify-content: center;
 }
 
-hero-area h1 {
+.hero-area h1 {
   font-size: 2.25em;
   font-family: 'Poppins', Helvetica, Arial, sans-serif;
   font-weight: 500;
@@ -277,6 +296,9 @@ input[type=button] {
 
 /* features */
 .features {
+  background: url(/Users/ys/Desktop/skillcrush/coding-responsive-websites/my-class-project/unplugged-design-docs/unplugged-retreat-features.jpg);
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
 }
@@ -311,7 +333,7 @@ input[type=button] {
 }
 
 .reviews h2 {
-  padding-bottom: 40px;
+  padding-bottom: 10px;
   line-height: 1;
 }
 
@@ -646,6 +668,7 @@ input[type=button] {
   header {
     padding: 15px 0;
   }
+
 
   /* Hero area */
   .hero-area h1 {
