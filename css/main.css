@@ -224,17 +224,27 @@ footer .content-wrapper {
   margin-bottom: 50px;
 }
 
-footer .social-icons {
+footer .social-icon {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-footer .social-icons p {
+footer .social-icon p {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #527158;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+
 }
+
+footer .social-icon p i {
+  font-size: 1.3em;
+}
+
 
 footer .copyright {
   margin: 20px 0;
@@ -263,7 +273,7 @@ footer .copyright {
 aside {
   display: flex;
   justify-content: center;
-  background-color: #59a48b;
+  background-color: #527158;
 }
 
 aside .form {
@@ -601,12 +611,14 @@ input[type=button] {
     width: 85%;
   }
 
+  .reviews article figure,
   .reviews article div {
     width: 49%;
   }
 
+
   .reviews h3 {
-    width: 49%;
+    width: 75%;
     margin: 0;
   }
 
@@ -615,10 +627,11 @@ input[type=button] {
     width: 65%;
   }
 
-  .footer-content {
+  footer .footer-content {
     display: flex;
     justify-content: space-between;
     justify-items: center;
+    flex-direction: row;
 
   }
 
@@ -633,6 +646,11 @@ input[type=button] {
 
   footer p {
     line-height: 1.2;
+  }
+
+  footer .social-icon {
+    width: 12.5em;
+    justify-content: space-between;
   }
 
   footer .copyright {
