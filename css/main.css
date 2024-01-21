@@ -217,7 +217,7 @@ footer p {
 }
 
 footer .content-wrapper {
-  width: 55%;
+  width: 55%
 }
 
 .footer .contact {
@@ -248,13 +248,14 @@ footer .social-icon p i {
 
 footer .copyright {
   margin: 20px 0;
+
 }
 
 /********* Mobil ***************/
 
 /* hero-area */
 .hero-area {
-  background: url(/Users/ys/Desktop/skillcrush/coding-responsive-websites/my-class-project/unplugged-design-docs/unplugged-retreat.jpg);
+  background: url(../img/unplugged-retreat.jpg);
   background-size: cover;
   background-position: center;
   min-height: 500px;
@@ -306,7 +307,7 @@ input[type=button] {
 
 /* features */
 .features {
-  background: url(/Users/ys/Desktop/skillcrush/coding-responsive-websites/my-class-project/unplugged-design-docs/unplugged-retreat-features.jpg);
+  background: url(../img/unplugged-retreat-features.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -527,7 +528,7 @@ input[type=button] {
 
   h2 {
     font-size: 2.25em;
-    line-height: 1.2;
+    line-height: 1.3;
   }
 
   h3 {
@@ -646,6 +647,7 @@ input[type=button] {
 
   footer p {
     line-height: 1.2;
+
   }
 
   footer .social-icon {
@@ -710,6 +712,20 @@ input[type=button] {
     max-width: 960px;
   }
 
+  h2 {
+    font-size: 2.25em;
+  }
+
+  h3,
+  h4 {
+    font-size: 1.875em;
+  }
+
+  p {
+    font-size: 1.125em;
+    line-height: 1.333;
+  }
+
   /* Header */
 
   header {
@@ -755,6 +771,8 @@ input[type=button] {
   .reviews article div {
     width: 42%;
   }
+
+
 
   footer h4 {
     font-size: 1.8em;
